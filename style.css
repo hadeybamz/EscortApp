@@ -1,0 +1,15 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
+
+h4 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2, h1  {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 1em;
+  margin-bottom: 2px;
+}
+ .form {
+  margin-top: 2em;
+  margin-bottom: 2em;
+ }
