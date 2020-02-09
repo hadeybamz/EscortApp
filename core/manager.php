@@ -47,13 +47,6 @@
       $conn->query($insert_stmt);
       $conn->close();
     }
-    private function updateExcorts(Excorts $excorts){
-      //update of ariticle
-      include 'connect.php';
-      $update_stmt="UPDATE excorts SET full_name='$excorts->full_name',emails='$excorts->emails',password='$excorts->password',privilege='$excorts->privilege' WHERE ID='$excorts->id'";
-      $conn->query($update_stmt);
-      $conn->close();       
-    }
   } 
 
 ?>
